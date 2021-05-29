@@ -10,8 +10,14 @@
       {% endif %}
       <div class="card-body">
         <h2 class="card-title text-lowercase">{{ project.title }}</h2>
+	
         <p class="card-text">{{ project.description }}</p>
         <div class="row ml-1 mr-1 p-0">
+		{% if project.tag %}
+		 {% for tag in project.tag %}
+		<div class="{{ tag }}-tag">{{tag}}</div>
+		 {% endfor %}
+		{% endif %}
           {% if project.github %}
           <div class="github-icon">
             <div class="icon" data-toggle="tooltip" title="Code Repository">

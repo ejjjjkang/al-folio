@@ -1,4 +1,10 @@
-<div class="publications">
+<div class="projects">
 	<h2>featured projects</h2>
-	{% bibliography -f papers -q @*[selected=true]* %}
+	{% if site.projects %}
+	<div class="table">
+		{% assign projects = site.projects | reverse %} {% for item in projects %}
+		<div>Hi</div>
+		{% endfor %}
+	</div>
+	{% endif %}
 </div>

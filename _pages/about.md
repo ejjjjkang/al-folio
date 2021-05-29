@@ -10,6 +10,7 @@ profile:
   address: false
 
 news: true # includes a list of news items
+featured_projects: true # includes a list of project marked as "selected={true}"
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
@@ -20,7 +21,7 @@ My research interest is related to build and design system to improve online spa
 
 I am a ph.D applicant for the Fall 2022 cycle!
 
-You can confirm my CV @ [subreddit](http://reddit.com){:target="\_blank"}.
+You can confirm my CV @ [here](https://docs.google.com/document/d/1qHcXlC2tz-_s7MbvZIfg-cwp5LtR9dXpFsYHLS_Tc6Q/edit){:target="\_blank"}.
 
 <!--
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
