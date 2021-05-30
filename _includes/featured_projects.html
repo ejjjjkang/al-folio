@@ -1,10 +1,41 @@
 <div class="projects">
 	<h2>featured projects</h2>
 	{% if site.projects %}
-	<div class="table">
+	<div class="row row-cols-md-3 mt-3 ml-2">
+		<!-- <div class="card card-5"> -->
 		{% assign projects = site.projects | reverse %} {% for item in projects %}
-		<div>Hi</div>
-		{% endfor %}
+		{% if item.importance < 3 %}
+		<div class="card mr-2">
+			<a href="{{ item.url | relative_url }}">
+				{% if item.img %}
+				<div class="row-md-6 m-1">
+					<img
+						class="card-img"
+						src="{{ item.img | relative_url }}"
+						alt="project thumbnail"
+					/>
+				</div>
+			</a>
+			<div class="row-md-6">
+				{% else %}
+				<div class="row-md-12">
+					{% endif %}
+
+					<div class="card-body">
+						<a href="{{ item.url | relative_url }}">
+							<h3 class="card-title featured-title">{{ item.title }}</h3>
+						</a>
+						<p class="card-text">{{ item.tag }}</p>
+					</div>
+				</div>
+			</div>
+
+			{% endif %} {% endfor %}
+			<a href="{{ '/projects/' | relative_url }}">
+				<div>more project</div>
+			</a>
+		</div>
 	</div>
 	{% endif %}
+	<!-- </div> -->
 </div>

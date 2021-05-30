@@ -2,42 +2,51 @@
  * Content
  ******************************************************************************/
 
- body {
-   padding-bottom: 70px;
-   color: var(--global-text-color);
-   background-color: var(--global-bg-color);
- }
+body {
+	padding-bottom: 70px;
+	color: var(--global-text-color);
+	background-color: var(--global-bg-color);
+}
 
- body.fixed-top-nav {
-   // Add some padding for the nav-bar.
-   padding-top: 56px;
- }
+body.fixed-top-nav {
+	// Add some padding for the nav-bar.
+	padding-top: 56px;
+}
 
- body.sticky-bottom-footer {
-   // Remove padding below footer.
-   padding-bottom: 0;
- }
+body.sticky-bottom-footer {
+	// Remove padding below footer.
+	padding-bottom: 0;
+}
 
 .container {
-  max-width: $max-content-width;
+	max-width: $max-content-width;
 }
 
 // Profile
 .profile {
-  img {
-    width: 100%;
-  }
+	img {
+		width: 100%;
+	}
 }
 
 // TODO: redefine content layout.
 
+.card-featured {
+	background: #fff;
+	border-radius: 2px;
+	display: inline-block;
+	height: 300px;
+	margin: 1rem;
+	position: relative;
+	width: 300px;
 
+	box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
 /******************************************************************************
  * Publications
  ******************************************************************************/
 
 // TODO: redefine publications layout.
-
 
 /*****************************************************************************
 * Projects
