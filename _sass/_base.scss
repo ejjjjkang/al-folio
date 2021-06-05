@@ -204,10 +204,10 @@ table.table a {
 .social {
 	text-align: center;
 	.contact-icons {
-		font-size: 4rem;
+		font-size: 1.8rem;
 		a {
 			i::before {
-				color: var(--global-text-color);
+				color: var(--global-nav-text-color);
 				-webkit-transition: all 0.2s ease-in-out;
 			}
 			&:hover {
@@ -313,7 +313,46 @@ footer.sticky-bottom {
 
 // Projects
 
+.tag {
+	border-radius: 10px;
+	border-style: solid;
+	border-color: var(--global-theme-color);
+	font-size: 0.8rem;
+	border-width: thin;
+	color: var(--global-theme-color);
+}
+
 .projects {
+	@media only screen and (max-width: 990px) {
+		.viewport {
+			flex-wrap: wrap;
+		}
+	}
+
+	@media only screen and (min-width: 990px) {
+		.viewport {
+			flex-wrap: nowrap;
+			flex-direction: row;
+			overflow: scroll;
+			overflow-x: scroll;
+		}
+	}
+
+	.viewport::-webkit-scrollbar {
+		-webkit-appearance: none;
+	}
+
+	.viewport::-webkit-scrollbar:horizontal {
+		height: 11px;
+	}
+
+	.viewport::-webkit-scrollbar-thumb {
+		border-radius: 8px;
+		border: 2px solid white; /* should match background, can't be transparent */
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+
+	width: 100%;
 	h2 {
 		color: var(--global-nav-text-color);
 		font-weight: 600;
@@ -398,11 +437,11 @@ footer.sticky-bottom {
 		}
 	}
 	h2.year {
-		color: var(--global-theme-color);
-		border-top: 1px solid var(--global-theme-color);
+		color: var(--global-nav-text-color);
+		border-top: 1px solid var(--global-nav-text-color);
 		padding-top: 1rem;
 		margin-top: 2rem;
-		margin-bottom: -2rem;
+		// margin-bottom: -2rem;
 		text-align: right;
 	}
 	ol.bibliography {

@@ -1,7 +1,7 @@
 <div class="projects">
 	<h2>featured projects</h2>
 	{% if site.projects %}
-	<div class="row row-cols-md-3 mt-3 ml-2">
+	<div class="row viewport row-cols-md-3 mt-3 ml-2">
 		<!-- <div class="card card-5"> -->
 		{% assign projects = site.projects | reverse %} {% for item in projects %}
 		{% if item.importance < 3 %}
@@ -31,10 +31,16 @@
 			</div>
 
 			{% endif %} {% endfor %}
-			<a href="{{ '/projects/' | relative_url }}">
-				<div>more project</div>
-			</a>
 		</div>
+	</div>
+	<div class="text-right">
+		<a
+			class="btn btn-sm z-depth-0"
+			role="button"
+			href="{{ '/projects/' | relative_url }}"
+		>
+			more project
+		</a>
 	</div>
 	{% endif %}
 	<!-- </div> -->

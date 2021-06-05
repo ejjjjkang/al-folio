@@ -3,16 +3,16 @@ layout: page
 permalink: /publications/
 title: publications
 description: publications by categories in reversed chronological order.
-years: [2021, 2020, 2019]
+field: [Paper, Short paper and Workshop, Others]
 nav: true
 ---
 
 <div class="publications">
 
-{% for y in page.years %}
+{% for y in page.field %}
 
   <h2 class="year">{{y}}</h2>
-  {% bibliography -f papers -q @*[year={{y}}]* %}
+  {% bibliography -f papers -q @*[field={{y}}]* %}
 {% endfor %}
 
 </div>
