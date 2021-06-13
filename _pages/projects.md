@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: The team/individual projects I worked, some of the projects were published with paper.
+description: The team/individual projects I've worked, some of the projects were published in paper.
 nav: true
 tag: true
 display_categories: [ongoing, previous]

@@ -4,7 +4,7 @@
 	<div class="row viewport row-cols-md-3 mt-3 ml-2">
 		<!-- <div class="card card-5"> -->
 		{% assign projects = site.projects | reverse %} {% for item in projects %}
-		{% if item.importance < 3 %}
+		{% if item.importance < 3 and item.category %}
 		<div class="card mr-2">
 			<a href="{{ item.url | relative_url }}">
 				{% if item.img %}

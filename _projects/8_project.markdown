@@ -5,7 +5,7 @@ description: a project that redirects to another website
 img: /assets/img/7.jpg
 importance: 2
 tag: workshop
-category: ongoing
+# category: ongoing
 ---
 
 Every project has a beautiful feature showcase page.

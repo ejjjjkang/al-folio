@@ -29,5 +29,4 @@ We introduced our project in Nurips2019 Creativity Workshop and Artcenter Nabi e
 			title="example image"
 		/>
 	</div>
-	
 </div>

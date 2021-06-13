@@ -1,24 +1,31 @@
 ---
 layout: page
 title: FanARea
-description: AR social billboard app for idol-fan interaction
-img:
-importance: 3
+description: social AR digital billboard app for idol-fan interaction
+img: /assets/img/walldol.png
+importance: 1
 tag: [AR, UX/UI]
 category: previous
 ---
 
-[This is the grant project supported by KOCCA]
+[This is the grant project supported by a government agency, KOCCA]
 
 <strong>0️⃣ My role in the project</strong><br>
+In the project, my role was lead project manager and developer. To implement our app, I communicate with our team members(e.g. developer, ux designer), sharing our vision and shaping our pictures. As a developer, I prototyped our apps iteratively, using unity AR foundation. It was hard to manage all team and put together all opinions for the best plan and get things done, but I've learned that how to user flow should be managed in AR app.
 
 <strong>1️⃣ Overview</strong><br>
 Fandom is a commonplace participatory experience which we can observe in everywhere from Star Wars to politicians' campaign.[1] The representation of the fandoms has shifted as the development of technology and trends.[2] In South Korea, a lot of fandom communities have emerged and grown their abilities at a great scale.
 
-Specifically, our team focuses on the one fandom phenomenon.<br>
-The fandoms like to promote the k-pop singers in person during the influencers' special occasions (ex: birthday, album releases date … ) at the public billboards or cafes.
+Specifically, our team focuses on the one idol fandom phenomenon.<br>
+The idol fandoms like to sponsor the k-pop singers in person during the idols' special occasions (e.g. Birthday, Debut anniversary) by promotional campigns on digital billboards on street. For instance, they promoted their star in Time Square which is the most popular location in the States for wide-scale ads.
 
 In this project, we introduced 'Wall-dol',AR social billboard app. The fans able to interact with fans as well as their idols by remaining AR notes in the app. Through the dynamic interactions built in the app, the fans are able to feel social bonds with other fans, and even they can accumulate their own memories on the spot.
+
+My wonderful collaborator:
+Han-gyeol Jo,
+Dayoung Lee,
+Boyoung Lim,
+Hyeseon Han
 
 <strong>2️⃣ Design Process</strong><br>
 

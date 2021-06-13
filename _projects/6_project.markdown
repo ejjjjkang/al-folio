@@ -6,8 +6,7 @@ img:
 importance: 4
 category: work
 tag: [VR, school]
-category: previous
-
+# category: previous
 ---
 
 Every project has a beautiful feature showcase page.

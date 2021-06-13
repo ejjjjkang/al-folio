@@ -6,7 +6,7 @@ permalink: /
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: pt.jpeg
   address: false
 
 news: true # includes a list of news items
@@ -18,8 +18,6 @@ social: true # includes social icons at the bottom of the page
 Hi, my name is Eunjeong (you can pronounce my name "oong-jeong"),
 
 My research interest is related to build and design system to improve online space creatively, positively, and collaboratively. I am exploring the latest online public social movements and improvements arising from their integration such as online discourse, memes, livestream, wikipedia. With the help of application supported by the AI and data driven approaches, I believe that personal, or the member of the public can give off their potentials.
-
-I am a ph.D applicant for the Fall 2022 cycle!
 
 You can confirm my CV @ [here](https://docs.google.com/document/d/1qHcXlC2tz-_s7MbvZIfg-cwp5LtR9dXpFsYHLS_Tc6Q/edit){:target="\_blank"}.
 
