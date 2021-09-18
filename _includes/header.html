@@ -2,7 +2,17 @@
 	<!-- Nav Bar -->
 	<nav
 		id="navbar"
-		class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}"
+		class="
+			navbar navbar-light navbar-expand-sm
+			{%
+			if
+			site.navbar_fixed
+			%}fixed-top{%
+			else
+			%}sticky-top{%
+			endif
+			%}
+		"
 	>
 		<div class="container">
 			{% if page.title != "about" %}
@@ -48,7 +58,17 @@
 
 					<!-- project -->
 					<li
-						class="nav-item {% if page.url contains 'project' %}active{% endif %}"
+						class="
+							nav-item
+							{%
+							if
+							page.url
+							contains
+							'project'
+							%}active{%
+							endif
+							%}
+						"
 					>
 						<a class="nav-link" href="{{ '/projects/' | relative_url }}">
 							project {% if page.title == "project" %}
@@ -57,7 +77,17 @@
 						</a>
 					</li>
 					<li
-						class="nav-item {% if page.url contains 'publication' %}active{% endif %}"
+						class="
+							nav-item
+							{%
+							if
+							page.url
+							contains
+							'publication'
+							%}active{%
+							endif
+							%}
+						"
 					>
 						<a class="nav-link" href="{{ '/publications/' | relative_url }}">
 							publication {% if page.title == "publication" %}
@@ -66,7 +96,17 @@
 						</a>
 					</li>
 					<li
-						class="nav-item {% if page.url contains 'creative' %}active{% endif %}"
+						class="
+							nav-item
+							{%
+							if
+							page.url
+							contains
+							'creative'
+							%}active{%
+							endif
+							%}
+						"
 					>
 						<a class="nav-link" href="{{ '/creative/' | relative_url }}">
 							creative {% if page.title == "creative" %}
@@ -86,13 +126,13 @@
 						</a>
 					</li>
 					{% endif %}
-					<li class="nav-item {% if page.url contains 'CV' %}active{% endif %}">
+					<!-- <li class="nav-item {% if page.url contains 'CV' %}active{% endif %}">
 						<a class="nav-link" href="{{ '/cv/' | relative_url }}">
 							CV {% if page.title == "cv" %}
 							<span class="sr-only">(current)</span>
 							{% endif %}
 						</a>
-					</li>
+					</li> -->
 					<!-- Other pages -->
 					<!-- {% assign sorted_pages = site.pages %} {% for p in sorted_pages %} {%
 					if p.nav and p.autogen == nil %}

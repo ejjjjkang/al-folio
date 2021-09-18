@@ -5,7 +5,7 @@ permalink: /projects/
 description: The team/individual projects I've worked, some of the projects were published in paper.
 nav: true
 tag: true
-display_categories: [ongoing, previous]
+display_categories: [current, previous]
 horizontal: false
 ---
 

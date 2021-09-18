@@ -25,7 +25,10 @@
 						<a href="{{ item.url | relative_url }}">
 							<h3 class="card-title featured-title">{{ item.title }}</h3>
 						</a>
-						<p class="card-text">{{ item.tag }}</p>
+						<!-- <p class="card-text">{{ item.tag }}</p> -->
+						{%for i in item.tag %}
+						<li class="card-text">{{i}}</li>
+						{% endfor %}
 					</div>
 				</div>
 			</div>

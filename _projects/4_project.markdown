@@ -2,7 +2,7 @@
 layout: page
 title: FanARea
 description: social AR digital billboard app for idol-fan interaction
-img: /assets/img/walldol.png
+img: /assets/img/walldol_.png
 importance: 1
 tag: [AR, UX/UI]
 category: previous
@@ -21,7 +21,7 @@ The idol fandoms like to sponsor the k-pop singers in person during the idols' s
 
 In this project, we introduced 'Wall-dol',AR social billboard app. The fans able to interact with fans as well as their idols by remaining AR notes in the app. Through the dynamic interactions built in the app, the fans are able to feel social bonds with other fans, and even they can accumulate their own memories on the spot.
 
-My wonderful collaborator:
+My collaborator:
 Han-gyeol Jo,
 Dayoung Lee,
 Boyoung Lim,

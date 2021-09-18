@@ -15,9 +15,15 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi, my name is Eunjeong (you can pronounce my name "oong-jeong"),
+**Hi, my name is Eunjeong 🙂**
 
-My research interest is related to build and design system to improve online space creatively, positively, and collaboratively. I am exploring the latest online public social movements and improvements arising from their integration such as online discourse, memes, livestream, wikipedia. With the help of application supported by the AI and data driven approaches, I believe that personal, or the member of the public can give off their potentials.
+(you can pronounce my name **"oong-jeong"**),
+
+My research interest is related to build and design system to improve online space creatively, positively, and collaboratively. I am exploring the latest online social movements of public and their creative behaviors arising from communication such as creating memes, being passionated as a fan of someone. With the mediation of application supported by AI and data driven approaches, I believe that individuals, the member of the public is able to give off their potential beyond their own ability.
+
+Eunjeong received **Master of Arts and Science degree** from the Department of Art and Technology at Sogang University in Korea.
+
+Before starting the academic life, she worked as a digital advertising content planner for about 3 years.
 
 You can confirm my CV @ [here](https://docs.google.com/document/d/1qHcXlC2tz-_s7MbvZIfg-cwp5LtR9dXpFsYHLS_Tc6Q/edit){:target="\_blank"}.
 

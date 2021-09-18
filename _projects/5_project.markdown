@@ -1,18 +1,20 @@
 ---
 layout: page
 title: Partti
-description: a project with a background image
-img: /assets/img/1.jpg
+description: Collaborative dance tutorial app
+img: /assets/img/partti.png
 importance: 3
-# category: ongoing
+tag: [web, development]
+category: current
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+In Korea, followed by the K-pop trend, playing dance becomes the one of the entertainment activities for generation Z (Gen Z). People would like to record their short dance videos and upload to YouTube, Tiktok and Instagram so that dance becomes some words which enable younger generation to understand each other.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Most of them usually utilize YouTube and Tiktok to learn their dance, however it is not easy for them to learn movements according to the idols or dancers actions. In this project, we support the novice dancers who don't get used to learn how to dance. We proceeded formative interviews with the students who were interested in dance, and YouTube creators.
 
+This project is being supported by the <strong>Korea Contents Creative Agency</strong>. We will build prototype until November 2021 and publish it with web application.
+
+<!--
     ---
     layout: page
     title: project
@@ -83,4 +85,4 @@ Here's the code for the last row of images above:
 		/>
 	</div>
 </div>
-```
+``` -->
