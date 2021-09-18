@@ -119,6 +119,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+  - node_modules
 keep_files:
   - CNAME
   - .nojekyll
