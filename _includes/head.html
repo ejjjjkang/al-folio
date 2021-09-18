@@ -7,8 +7,8 @@
 
 <title>
 	{% if site.title == "blank" %}{{ site.first_name }} {{ site.middle_name }} {{
-	site.last_name }}{% else %}{{ site.title }}{% endif %}{% if page.title and
-	page.url != "/" %} | {{ page.title }}{% endif %}
+	site.last_name }}{% else %}{{ site.title }}{% endif %}{% if page.title !=
+	"blank" and page.url != "/" %} | {{ page.title }}{% endif %}
 </title>
 <meta name="description" content="{{ site.description }}" />
 
@@ -69,7 +69,7 @@
 <!-- Code Syntax Highlighting -->
 <link
 	rel="stylesheet"
-	href="https://gitcdn.xyz/repo/jwarby/jekyll-pygments-themes/master/{{ site.highlight_theme }}.css"
+	href="https://gitcdn.link/repo/jwarby/jekyll-pygments-themes/master/{{ site.highlight_theme }}.css"
 />
 
 <!-- Styles -->
@@ -80,7 +80,6 @@
 />
 {% endif %}
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
-
 <link
 	rel="canonical"
 	href="{{ page.url | replace:'index.html','' | relative_url }}"
