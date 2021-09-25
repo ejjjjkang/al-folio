@@ -23,7 +23,7 @@ My research interest is related to build and design system to improve online spa
 
 Eunjeong received **Master of Arts and Science degree** from the Department of Art and Technology at Sogang University in Korea.
 
-Before starting the academic life, she worked as a digital advertising content planner for about 3 years.
+Before starting the academic life, I worked as a digital advertising content planner for about 3 years. I majored in Advertising and Public Relations, but I took additional college courses for computer science and math, which is required for multidisciplinary study.
 
 You can confirm my CV @ [here](https://docs.google.com/document/d/1qHcXlC2tz-_s7MbvZIfg-cwp5LtR9dXpFsYHLS_Tc6Q/edit){:target="\_blank"}.
 
