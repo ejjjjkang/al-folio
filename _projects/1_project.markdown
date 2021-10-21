@@ -23,6 +23,7 @@ We introduced our project in Nurips2019 Creativity Workshop and Artcenter Nabi e
 <iframe src="https://player.vimeo.com/video/385763280" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 <p><a href="https://vimeo.com/385763280">when emotions become form / T-25</a> from <a href="https://vimeo.com/user39468554">Eun Jeong  Kang</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
+<!--
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/1.jpg' | relative_url }}" alt="" title="example image"/>
@@ -33,7 +34,7 @@ We introduced our project in Nurips2019 Creativity Workshop and Artcenter Nabi e
     <div class="col-sm mt-3 mt-md-0">
         <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/5.jpg' | relative_url }}" alt="" title="example image"/>
     </div>
-</div>
+</div> -->
 
 <div class="row justify-content-sm-center">
 	<div class="col-sm-8 mt-3 mt-md-0">

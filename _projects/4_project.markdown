@@ -27,8 +27,8 @@ Dayoung Lee,
 Boyoung Lim,
 Hyeseon Han
 
-<strong>2️⃣ Design Process</strong><br>
-
 <strong>3️⃣ Result</strong><br>
+
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/628308451?h=319d0ebfe5&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="wall-doll_1103-2"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTNkniltcweWKwlIPz5bMNdIdgnO-BJIhwxbKNdyGFNjiMm_Aw6IejcG58uMTyWKlJlZt5TcInHQuYo/embed?start=false&loop=true&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>

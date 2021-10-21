@@ -6,7 +6,7 @@ img: /assets/img/bodyfood.png
 redirect:
 importance: 3
 tag: [Wearable computing]
-# category: previous
+category: previous
 ---
 
 [We published the paper after working on this project, see here]

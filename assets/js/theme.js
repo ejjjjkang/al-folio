@@ -38,30 +38,14 @@ let transTheme = () => {
 
 
 let initTheme = (theme) => {
-<<<<<<< HEAD
-	// if (theme == null) {
-	// 	const userPref = window.matchMedia;
-	// 	if (userPref && userPref("(prefers-color-scheme: dark)").matches) {
-	// 		theme = "dark";
-	// 	}
-	// }
-
-	// if (theme) {
-	// 	document.documentElement.setAttribute("data-theme", theme);
-	// }
-
-	localStorage.setItem("theme", theme);
-};
-=======
-  if (theme == null) {
-    const userPref = window.matchMedia;
-    if (userPref && userPref('(prefers-color-scheme: dark)').matches) {
-        theme = 'dark';
-    }
-  }
+//   if (theme == null) {
+//     const userPref = window.matchMedia;
+//     if (userPref && userPref('(prefers-color-scheme: dark)').matches) {
+//         theme = 'dark';
+//     }
+//   }
   setTheme(theme);
 }
->>>>>>> upstream/master
 
 
 initTheme(localStorage.getItem("theme"));
