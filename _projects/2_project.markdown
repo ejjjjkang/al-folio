@@ -4,7 +4,7 @@ title: When emotions become form vol.1
 description: The projection of human emotions by AI
 img: assets/img/vol1.png
 importance: 2
-tag: [machine learning, artwork]
+tag: [machine learning, artwork, creativity]
 category: previous
 ---
 

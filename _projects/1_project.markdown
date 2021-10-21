@@ -5,7 +5,7 @@ description: An interactive machine learning application reflecting humans' emot
 img: assets/img/vol2.png
 importance: 1
 category: previous
-tag: machine learning
+tag: [machine learning, creativity]
 selected: true
 ---
 
