@@ -2,11 +2,13 @@
 layout: page
 title: Fan-AI interaction
 description: Interview  study
-img: /assets/img/7.jpg
+img: /assets/img/eun-teaser.001.jpeg
 importance: 4
 tag: Interview
 category: current
 ---
+
+Fans who have high parasocial relationships towards their idols tend to get attention to their idols from their micro habits to conversation styles. However, little is known about how they think virtual representation of their idols in the perspective of parasocial relationships. We discuss how they understand the idols' virtual representation in the ground of AI voice service, and how to design voice interaction for enhancing their relationships.
 
 We will update the detailed introduction if the project is done. ☺️
 

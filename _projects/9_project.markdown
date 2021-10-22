@@ -3,7 +3,7 @@ layout: page
 title: EvaluAI
 description: a project that redirects to another website
 img: /assets/img/7.jpg
-importance: 2
+importance: 7
 tag: [content creator, XAI, recsys, emphirical study]
 category: current
 ---
