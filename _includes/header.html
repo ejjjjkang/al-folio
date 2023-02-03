@@ -1,8 +1,6 @@
 <header>
 	<!-- Nav Bar -->
-	<nav
-		id="navbar"
-		class="
+	<nav id="navbar" class="
 			navbar navbar-light navbar-expand-sm
 			{%
 			if
@@ -12,17 +10,11 @@
 			%}sticky-top{%
 			endif
 			%}
-		"
-	>
+		">
 		<div class="container">
 			{% if page.title != "about" %}
-			<a
-				class="navbar-brand title font-weight-lighter"
-				href="{{ site.baseurl | prepend: site.url }}/"
-			>
-				{% if site.title == "blank" %}<span class="font-weight-bold"
-					>{{ site.first_name }}</span
-				>
+			<a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl | prepend: site.url }}/">
+				{% if site.title == "blank" %}<span class="font-weight-bold">{{ site.first_name }}</span>
 				{{ site.middle_name }} {{ site.last_name }}{% else %}{{ site.title }}{%
 				endif %}
 			</a>
@@ -31,15 +23,8 @@
 			<div class="navbar-brand social">{% include social.html %}</div>
 			{% endif %}
 			<!-- Navbar Toggle -->
-			<button
-				class="navbar-toggler collapsed ml-auto"
-				type="button"
-				data-toggle="collapse"
-				data-target="#navbarNav"
-				aria-controls="navbarNav"
-				aria-expanded="false"
-				aria-label="Toggle navigation"
-			>
+			<button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse"
+				data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="sr-only">Toggle navigation</span>
 				<span class="icon-bar top-bar"></span>
 				<span class="icon-bar middle-bar"></span>
@@ -57,8 +42,7 @@
 					</li>
 
 					<!-- project -->
-					<li
-						class="
+					<li class="
 							nav-item
 							{%
 							if
@@ -68,16 +52,14 @@
 							%}active{%
 							endif
 							%}
-						"
-					>
+						">
 						<a class="nav-link" href="{{ '/projects/' | relative_url }}">
 							project {% if page.title == "project" %}
 							<span class="sr-only">(current)</span>
 							{% endif %}
 						</a>
 					</li>
-					<li
-						class="
+					<li class="
 							nav-item
 							{%
 							if
@@ -87,15 +69,14 @@
 							%}active{%
 							endif
 							%}
-						"
-					>
+						">
 						<a class="nav-link" href="{{ '/publications/' | relative_url }}">
 							publication {% if page.title == "publication" %}
 							<span class="sr-only">(current)</span>
 							{% endif %}
 						</a>
 					</li>
-					<li
+					<!-- <li
 						class="
 							nav-item
 							{%
@@ -113,10 +94,10 @@
 							<span class="sr-only">(current)</span>
 							{% endif %}
 						</a>
-					</li>
-					{% if site.blog_name %}
+					</li> -->
+					<!-- {% if site.blog_name %} -->
 					<!-- Blog -->
-					<li
+					<!-- <li
 						class="nav-item {% if page.url contains 'blog' %}active{% endif %}"
 					>
 						<a class="nav-link" href="{{ '/blog/' | relative_url }}">
@@ -125,7 +106,7 @@
 							{% endif %}
 						</a>
 					</li>
-					{% endif %}
+					{% endif %} -->
 					<!-- <li class="nav-item {% if page.url contains 'CV' %}active{% endif %}">
 						<a class="nav-link" href="{{ '/cv/' | relative_url }}">
 							CV {% if page.title == "cv" %}

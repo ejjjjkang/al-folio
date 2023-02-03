@@ -15,6 +15,6 @@ As one of our results, we presented 'when emotions become form', Artwork display
 Team - T-25
 
 Taejae Han, developer<br>
-Eunjeong Kang, researcher<br>
+Eun-Jeong Kang, researcher<br>
 Jinho Bae, developer<br>
 Junghyun Park, Producer<br>
