@@ -1,18 +1,36 @@
 ---
 layout: page
 title: Partti
-description: Collaborative dance tutorial app
+description: A web app supporting viewership for K-Pop dance content
 img: /assets/img/partti.png
 importance: 3
 tag: [web, development]
-category: current
+category: previous
 ---
+<div class="row justify-content-sm-center">
+ <div class="col-sm mt-3 mt-md-0">
 
-In Korea, followed by the K-pop trend, playing dance becomes the one of the entertainment activities for generation Z (Gen Z). People would like to record their short dance videos and upload to YouTube, Tiktok and Instagram so that dance becomes some words which enable younger generation to understand each other.
+ <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/partti-3.png' | relative_url }}" alt="" title="example image"/>
+</div>
+</div>
+<div class="caption">
+   <a href="http://partti.lol/">http://partti.lol/</a>
+</div>
 
-Most of them usually utilize YouTube and Tiktok to learn their dance, however it is not easy for them to learn movements according to the idols or dancers actions. In this project, we support the novice dancers who don't get used to learn how to dance. We proceeded formative interviews with the students who were interested in dance, and YouTube creators.
+<strong>Background</strong><br>
+In South Korea, followed by the K-pop trend, K-Pop dance practices become popular between dancers as well as students. YouTube plays an important source that young people can learn dances. Furthermore, dancers gain inspirations from YouTube to be inspired for their dance creation. Based on the interviews with dancers, we found that they wantche YouTube parallelly, rather than watch videos in a row to compare detailed actions in the videos. <br>
 
-This project is being supported by the <strong>Korea Contents Creative Agency</strong>. We will build prototype until November 2021 and publish it with web application.
+To support their viewership, we devleoped a web-based video creative board named `Partti'. In the board, dancers as well as common users are able to watch videos parallelly and compare with the videos by creating their own playlists. In the board, users are able to collect videos to create playlists, then parallelize them together in our video player.
+
+This project is supported by the <strong>Korea Contents Creative Agency fellowship</strong>. The prototype was built and deployed after several expert's feedback.
+
+<div class="row justify-content-sm-center">
+ <div class="col-sm mt-3 mt-md-0">
+   <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/partti-1.png' | relative_url }}" alt="" title="example image"/>
+       </div>
+ <div class="col-sm mt-3 mt-md-0">
+   <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/partti-2.png' | relative_url }}" alt="" title="example image"/>
+</div>
 
 <!--
     ---

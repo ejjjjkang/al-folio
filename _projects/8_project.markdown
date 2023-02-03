@@ -5,7 +5,7 @@ description: a project that redirects to another website
 img: /assets/img/solutionchat.png
 importance: 2
 tag: AI-MC
-category: current
+category: previous
 ---
 
 We will update the detailed introduction after the project will be done. ☺️

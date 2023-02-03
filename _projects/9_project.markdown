@@ -1,11 +1,11 @@
----
+<!-- ---
 layout: page
 title: EvaluAI
 description: a project that redirects to another website
 img: /assets/img/7.jpg
 importance: 7
 tag: [content creator, XAI, recsys, emphirical study]
-category: current
+category: previous
 ---
 
 We will update the detailed introduction after the project will be done. ☺️
@@ -89,4 +89,4 @@ Here's the code for the last row of images above:
 		/>
 	</div>
 </div>
-``` -->
+``` --> -->
