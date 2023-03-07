@@ -15,17 +15,17 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-**Hi, my name is Eun-Jeong (Alicia) 🙂**
+**Hi, my name is Eun-Jeong (EJ) 🙂**
 
-(you can pronounce my name **"oong-jeong"**),
+(you can pronounce my name **"oong-jeong"** and I also prefer to be called 'EJ' ),
 
 My research is related to build and design communication systems to improve online space creatively, positively, and collaboratively. Specifically, I am answering questions related to how AI can be designed to mediate humans'
 communication by using human-centered approach.<br>
- Recently, I has been exploring problems of AI applications impacting real-world users such as fans, creators, and others.
+ Recently, I have been exploring problems of AI applications impacting the real-world users such as fans, creators, and others.
 <br>
  Before starting the academic life, I worked as a digital advertising content planner for about 3 years and also have work experience for a freelanced web developer.
  <br>
-I am a first year PhD student @ Cornell University.</p>
+I am a first year PhD student @ Cornell University.<p>
 You can confirm my CV @ [here](https://docs.google.com/document/d/1qHcXlC2tz-_s7MbvZIfg-cwp5LtR9dXpFsYHLS_Tc6Q/edit){:target="\_blank"}. I hope to talk with you with any topics!
 
 <!--
